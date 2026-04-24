@@ -6,4 +6,8 @@ def camel_to_hyphen(text:str) -> str:
             text.insert(text.index(symbol.lower()), "-")
     return "".join(text)
 
+
+print(camel_to_hyphen("helloPyhon"))
 print(camel_to_hyphen("myVariableName"))
+print(camel_to_hyphen("python"))
+print(camel_to_hyphen("aBigTest"))
