@@ -5,4 +5,6 @@ def special_percentile(percent: int, numbers: list) -> float:
     return nums_sorted[index]
 
 
-print(special_percentile(50, [5, 6, 8, 45, 4, 15, 7]))
+print(special_percentile(25, [40, 10, 30, 20]))
+print(special_percentile(25, [50, 10, 40, 30, 20]))
+print(special_percentile(50, [9, 1, 7, 3]))
